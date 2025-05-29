@@ -4,7 +4,8 @@ This repository contains a template/example for my [Hack The Box](https://hackth
 [![example_cover](./images/example_cover.png)](./pdf/HTB_Writeup-TEMPLATE-d0n601.pdf)
 
 ## Installation on Arch Linux
-1. Install [Latex](https://www.latex-project.org/) and support packages for Latex via `sudo pacman -S texlive-most`.
+1. Install [Latex](https://www.latex-project.org/) and support packages for Latex via `sudo pacman -S texlive-core texlive-bin texlive-latex texlive-latexextra texlive-fontsextra texlive-pictures texlive-pstricks texlive-publishers texlive-science
+`.
 2. Install [Pandoc](https://pandoc.org/) via `sudo pacman -S pandoc bcprov java-commons-lang `.
 3. Install [PDFtk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) via `sudo pacman -S pdftk`.
 4. Install the [Pandoc Latex Template](https://github.com/Wandmalfarbe/pandoc-latex-template)
